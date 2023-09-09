@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="formularios.css"/>
+        <title>Creacion de estilos para formularios en CSS</title>
+    </head>
+    <body>
+        <div class="contenedor">
+            <h3>Registrate en los formularios</h3>
+            <div class="buttons">
+                <button class="google-btn">
+                    <picture>
+                        <img src="https://th.bing.com/th/id/R.444eb63f21878b53d136cf06a5030829?rik=zjpSiRus2x3lYw&riu=http%3a%2f%2fwww.vhv.rs%2ffile%2fmax%2f20%2f201056_google-logo-png.jpg&ehk=f1Ep5JJ%2bNehxqZq%2b%2bftpeuoxn%2b0jf2EP3gDaisJY%2b5w%3d&risl=&pid=ImgRaw&r=0" alt="logo-google" />
+                    </picture>
+                    <span>Registrarse con Google</span>
+                </button>
+                <button class="twitter-btn">
+                    <picture>
+                        <img src="https://1000marcas.net/wp-content/uploads/2019/11/Twitter-logo.png" alt="logo-twitter"/>
+                    </picture>
+                </button>
+            </div>
+            <div class="separator">
+                <hr>
+                <span>O</span>
+                <hr>
+            </div>
+            <form action="" method="">
+                <div class="section-inputs">
+                    <label for="name">
+                        <span>Name</span>
+                        <input id="name" name="name" />
+                    </label>
+                    <label for="username">
+                        <span>Username</span>
+                        <input id="username" name="username" />
+                    </label>
+                </div>
+                <label for="email">
+                    <span>Email</span>
+                    <input id="email" name="email" />
+                </label>
+                <label for="password">
+                    <span>Password</span>
+                    <input id="password" name="password" placeholder="6+ caracteres" />
+                </label>
+                <label for="checkbox" class="checkbox-label">
+                    <input type="checkbox" id="checkbox">
+                    <span>Acepto las condiciones y el aviso legal</span>
+                </label>
+                <button type="submit" class="submit-btn">Crear Cuenta</button>
+            </form>
+        </div>
+    </body>
+</html>
